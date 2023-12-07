@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	/* border: 1px solid red; */
+}
 #root {
 	font-family: "Urbanist", sans-serif;
 	color: [#1D1E25];

@@ -33,7 +33,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className=''>
-          {/* <img className='max-w-xs ' src={heroImage} alt='hero image' /> */}
+          <img className='max-w-xs ' src={heroImage} alt='hero image' />
         </div>
       </div>
     </div>
