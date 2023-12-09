@@ -1,4 +1,5 @@
-const Logo = () => {
+/* eslint-disable react/prop-types */
+const Logo = ({ color }) => {
   return (
     <div className='flex justify-between mx-auto w-fit '>
       <svg
@@ -24,7 +25,7 @@ const Logo = () => {
           />
         </g>
       </svg>
-      <h2 className='text-[29px] font-bold '>PayPulse</h2>
+      <h2 className={` text-${color} text-[29px] font-bold`}>PayPulse</h2>
     </div>
   )
 }

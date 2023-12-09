@@ -2,7 +2,7 @@ import TestimonialCarousel from './TestimonialCarousel'
 
 const Testimonial = () => {
   return (
-    <section>
+    <section className='py-14 sm:py-[72px] lg:py-28'>
       <div className='flex items-center'>
         <div className='bg-[#F4F5FF] h-16 w-full sm:w-1/2 lg:w-1/3 '></div>
         <div className='w-8/12 mx-auto'>
@@ -15,7 +15,9 @@ const Testimonial = () => {
           </p>
         </div>
       </div>
-      <TestimonialCarousel />
+      <div className='pl-6 pt-[72px] sm:pl-[72px] lg:pl-80'>
+        <TestimonialCarousel />
+      </div>
     </section>
   )
 }

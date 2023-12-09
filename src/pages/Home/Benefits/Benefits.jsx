@@ -5,7 +5,7 @@ import icon3 from '../../../assets/icons/icon-box3.png'
 import icon4 from '../../../assets/icons/icon-box4.png'
 const Benefits = () => {
   return (
-    <section className='bg-[#F4F5FF] '>
+    <section className='bg-[#F4F5FF] lg:py-28 py-14 px-6 sm:px-[72px] lg:px-20 '>
       <SectionHeading
         title='Benefits & advantages'
         subTitle="We make it easy for users to use our platform, that's why we provide this benefit."

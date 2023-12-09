@@ -25,7 +25,7 @@ const Nav = () => {
     </>
   )
   return (
-    <div className='justify-between w-11/12 mx-auto navbar'>
+    <div className=' border-b border-[rgba(220, 223, 255, 1)] justify-between sm:px-[72px] lg:px-20 p-6 mx-auto navbar'>
       <div className='justify-between w-full navbar-center md:navbar-start md:w-fit'>
         <svg
           className='mr-3'
@@ -60,17 +60,17 @@ const Nav = () => {
             className='mr-auto btn btn-ghost md:hidden'
           >
             <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className='w-5 h-5'
+              width='50'
+              height='24'
+              viewBox='0 0 50 24'
               fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
+              xmlns='http://www.w3.org/2000/svg'
             >
               <path
+                d='M4.5 4H46M4.5 12H46M4.5 20H46'
+                stroke='#1D1E25'
+                strokeWidth='1.5'
                 strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth='2'
-                d='M4 6h16M4 12h8m-8 6h16'
               />
             </svg>
           </div>
@@ -82,12 +82,12 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-      <div className='hidden navbar-end lg:flex'>
-        <ul className='px-1 font-semibold menu menu-horizontal'>{navItems}</ul>
+      <div className='justify-between hidden w-fit navbar-end lg:flex'>
+        <ul className='w-full font-semibold menu menu-horizontal'>
+          {navItems}
+        </ul>
         <a className='primary_btn'>Download App</a>
       </div>
-      {/* <div className='hidden border navbar-end w-fit md:block'>
-      </div> */}
     </div>
   )
 }

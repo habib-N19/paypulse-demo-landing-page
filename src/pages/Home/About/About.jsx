@@ -3,12 +3,12 @@ import img2 from '../../../assets/icons/IconBox-03.png'
 import img3 from '../../../assets/icons/IconBox-02.png'
 const About = () => {
   return (
-    <section className='grid w-11/12 grid-cols-1 gap-5 mx-auto mt-20 sm:grid-cols-2'>
+    <section className='grid grid-cols-1 gap-5 mx-auto mt-20 sm:px-[72px] py-14 px-6 lg:px-20 lg:py-28 sm:grid-cols-2'>
       <div className='lg:order-2 col-span-full lg:col-span-1'>
         <h2 className='text-[56px] font-bold '>
           Some distinguishing features that set PayPulse apart from others.
         </h2>
-        <p>
+        <p className='py-10'>
           Exceptional Attributes that Differentiate PayPulse from Competitors
         </p>
         <button className='btn primary_btn'>Download Now</button>

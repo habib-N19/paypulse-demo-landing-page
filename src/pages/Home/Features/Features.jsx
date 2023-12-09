@@ -4,7 +4,7 @@ import iconNotCheck from '../../../assets/icons/icon-not-check.png'
 import SectionHeading from '../../../utils/SectionHeading'
 const Features = () => {
   return (
-    <section className='w-10/12 mx-auto'>
+    <section className='mx-auto lg:px-20 lg:py-28 sm:px-[72px] py-14 px-6'>
       <SectionHeading
         title='Why PayPulse '
         subTitle="Voilinta is fully reserved. Unlike banks, we don't loan out your money.
@@ -53,7 +53,7 @@ const Features = () => {
           </div>
         </div>
         {/* middle icon */}
-        <div className='bg-[#FEAE37] text-center flex items-center justify-center w-20 h-20 rounded-full absolute'>
+        <div className='bg-[#FEAE37] text-center flex items-center justify-center w-20 h-20 rounded-full mx-auto -mt-6 md:absolute md:top-1/2 md:right-[48%]'>
           {' '}
           <h1 className='text-3xl font-bold text-white'>VS</h1>
         </div>

@@ -1,10 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-
-// Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { Pagination } from 'swiper/modules'
 import TestimonialSlideContent from '../../../components/TestimonialSlideContent'
+import './pagination.css'
 const TestimonialCarousel = () => {
   const swiperParams = {
     pagination: {
@@ -13,8 +12,9 @@ const TestimonialCarousel = () => {
     }
   }
   return (
-    <>
+    <div className='relative'>
       <Swiper
+        loop={true}
         pagination={true}
         modules={[Pagination]}
         {...swiperParams}
@@ -30,7 +30,8 @@ const TestimonialCarousel = () => {
           <TestimonialSlideContent />
         </SwiperSlide>
       </Swiper>
-    </>
+      <div className='absolute swiper-pagination'></div>
+    </div>
   )
 }
 
