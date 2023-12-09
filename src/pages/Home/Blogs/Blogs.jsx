@@ -3,7 +3,7 @@ import blogImg1 from '../../../assets/images/blog-card-image-1.png'
 import blogImg2 from '../../../assets/images/blog-card-image-2.png'
 const Blogs = () => {
   return (
-    <section className='px-6 lg:py-28 sm:py-[72px] py-14 pb-32 sm:px-[72px] lg:px-20 lg:pb-48 sm:pb-40 '>
+    <section className='px-6 lg:py-28 sm:py-[72px] py-14 pb-44 sm:px-[72px] lg:px-20 lg:pb-48 sm:pb-40 '>
       <SectionHeading
         subTitle="We make it easy for users to use our platform, that's why we provide this benefit."
         title='What does the Media 

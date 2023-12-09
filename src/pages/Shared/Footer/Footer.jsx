@@ -51,7 +51,7 @@ const Footer = () => {
         {/* <hr className='w-11/12 mx-auto'></hr> */}
         <div className='w-11/12 h-5 mx-auto mt-10 mb-8 border-t'></div>
       </div>
-      <div className='flex flex-col items-center justify-between w-11/12 pb-8 mx-auto space-y-5 text-center text-white sm:flex-row'>
+      <div className='flex flex-col items-center justify-between w-11/12 pb-8 mx-auto mt-8 text-center text-white sm:mt-0 sm:flex-row'>
         <p className='order-2 text-sm sm:order-1'>
           © 2023 PayPulse inc. All right reserved
         </p>
@@ -63,7 +63,7 @@ const Footer = () => {
             <a href='#'> Terms & Conditions</a>
           </li>
         </ul>
-        <div className='flex order-3 gap-6 mx-auto mb-8 w-fit'>
+        <div className='flex order-3 gap-6 mx-auto w-fit'>
           <img src={fbIcon} alt='' />
           <img src={instaIcon} alt='' />
           <img src={twitterIcon} alt='' />

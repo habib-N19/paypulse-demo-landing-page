@@ -30,7 +30,7 @@ const TestimonialCarousel = () => {
           <TestimonialSlideContent />
         </SwiperSlide>
       </Swiper>
-      <div className='absolute swiper-pagination'></div>
+      <div className='absolute mr-auto swiper-pagination'></div>
     </div>
   )
 }
