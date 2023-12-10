@@ -11,7 +11,7 @@ const Footer = () => {
       {/* upper footer */}
       <div className='rounded-[32px] sm:w-11/12 sm:mx-auto z-10  -top-32 left-0 right-0 absolute bg-[#FEAE37] py-12 lg:py-20 px-8 lg:px-12 flex flex-col sm:flex-row justify-between items-center'>
         <div className='text-white sm:w-3/5'>
-          <h3 className=' text-[40px] mb-2'>
+          <h3 className='text-3xl md:text-[40px] mb-2'>
             Download now! A great app for Sending money
           </h3>
           <p>
@@ -27,7 +27,7 @@ const Footer = () => {
       {/* lower footer */}
       <div className='pt-[500px] sm:pt-56'>
         <Logo color='white' />
-        <ul className='flex justify-between w-2/4 pt-10 mx-auto text-white'>
+        <ul className='flex flex-wrap justify-center gap-6 px-6 pt-10 mx-auto text-white md:w-2/4'>
           <li>
             <Link to='/'>Features</Link>
           </li>
@@ -52,10 +52,10 @@ const Footer = () => {
         <div className='w-11/12 h-5 mx-auto mt-10 mb-8 border-t'></div>
       </div>
       <div className='flex flex-col items-center justify-between w-11/12 pb-8 mx-auto mt-8 text-center text-white sm:mt-0 sm:flex-row'>
-        <p className='order-2 text-sm sm:order-1'>
+        <p className='order-2 my-5 text-sm sm:my-0 sm:order-1'>
           © 2023 PayPulse inc. All right reserved
         </p>
-        <ul className='flex order-1 gap-8 mx-auto text-sm w-fit sm:order-2'>
+        <ul className='flex order-1 gap-8 mx-auto text-sm0 w-fit sm:order-2'>
           <li>
             <a href='#'> Privacy Policy</a>
           </li>

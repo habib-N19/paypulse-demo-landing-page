@@ -12,7 +12,7 @@ const TestimonialCarousel = () => {
     }
   }
   return (
-    <div className='relative'>
+    <div className='relative w-full'>
       <Swiper
         loop={true}
         pagination={true}
@@ -30,7 +30,7 @@ const TestimonialCarousel = () => {
           <TestimonialSlideContent />
         </SwiperSlide>
       </Swiper>
-      <div className='absolute mr-auto swiper-pagination'></div>
+      <div className='absolute lg:block lg:top-auto lg:bottom-auto bottom-60 left-12 sm:bottom-[400px]  overflow-hidden sm:left-20 lg:ml-20 swiper-pagination'></div>
     </div>
   )
 }

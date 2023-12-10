@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className='grid grid-cols-1 gap-5 mx-auto mt-20 sm:px-[72px] py-14 px-6 lg:px-20 lg:py-28 sm:grid-cols-2'>
       <div className='lg:order-2 col-span-full lg:col-span-1'>
-        <h2 className='text-[56px] font-bold '>
+        <h2 className='text-[40px] sm:text-[56px] font-bold '>
           Some distinguishing features that set PayPulse apart from others.
         </h2>
         <p className='py-10'>

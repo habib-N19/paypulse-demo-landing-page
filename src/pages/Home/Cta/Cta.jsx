@@ -20,7 +20,7 @@ const Cta = () => {
         <img className='object-fill w-full h-full ' src={ctaImg} alt='' />
       </div>
       <div className='z-10 order-1 text-white sm:order-2 sm:w-1/2 lg:2/3 '>
-        <h2 className='text-[56px] font-bold mb-6'>
+        <h2 className='text-[40px] sm:text-[56px] font-bold mb-6'>
           Getting Paid is now easier!
         </h2>
         <p className='mb-10 text-lg '>
