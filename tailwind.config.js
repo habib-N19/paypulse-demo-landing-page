@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'heroBg': "url('./src/assets/headerBg.png')",
+        // 'heroBg': "url('./src/assets/headerBg.png')",
       }
     },
   },

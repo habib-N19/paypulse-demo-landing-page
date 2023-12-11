@@ -30,7 +30,7 @@ const TestimonialCarousel = () => {
           <TestimonialSlideContent />
         </SwiperSlide>
       </Swiper>
-      <div className='absolute lg:block lg:top-auto lg:bottom-auto bottom-60 left-12 sm:bottom-[400px]  overflow-hidden sm:left-20 lg:ml-20 swiper-pagination'></div>
+      <div className='absolute lg:block lg:top-auto lg:bottom-auto bottom-60 left-12 sm:bottom-[400px] overflow-hidden sm:left-20  swiper-pagination'></div>
     </div>
   )
 }
